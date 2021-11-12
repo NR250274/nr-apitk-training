@@ -43,7 +43,7 @@ paths:
                   $ref: '#/components/schemas/Account'
   /accounts/{id}:
     get:
-      description: Get Account Balances
+      description: Get Account Balance
       operationId: accounts/getBalance
       parameters:
         - in: path
